@@ -1,0 +1,393 @@
+* {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+section {
+  margin-bottom: 100px;
+}
+
+html {
+  background-color: #f4f5f7;
+}
+
+#Main {
+  background-color: #f4f5f7;
+}
+a {
+  text-decoration: none !important;
+}
+
+a.text {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+/* CSS Coba */
+body {
+  background-color: #f4f5f7;
+}
+
+.main {
+  background-color: #cfd4ed;
+}
+
+.col-md-11 {
+  background-color: white;
+}
+
+.col-10 {
+  background-color: #f4f5f7;
+}
+
+.side-menu {
+  background-color: darkblue;
+  height: calc(auto);
+  width: 90px !important;
+  align-items: center;
+}
+
+.menu {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-brand {
+  padding-bottom: 25px;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 25px;
+}
+
+.logo-menu {
+  padding-bottom: 15px;
+}
+
+.side-item {
+  background-color: white;
+  width: 200px !important;
+}
+
+.content-item {
+  display: grid;
+}
+
+a.text-dashboard.row {
+  padding-left: 30px;
+  color: black;
+  font-size: 14;
+  font-weight: 700;
+  text-decoration: none;
+  height: 40px;
+  align-items: center;
+}
+
+.text-dashboard:hover {
+  background-color: #cfd4ed;
+}
+
+a.text-cars.row {
+  margin-top: 30px;
+  padding-left: 30px;
+  color: black;
+  font-size: 14;
+  font-weight: 700;
+  text-decoration: none;
+  height: 40px;
+  align-items: center;
+  background-color: #cfd4ed;
+}
+
+.text-cars:hover {
+  background-color: #cfd4ed;
+}
+
+.navbar {
+  margin-left: 0;
+  margin-right: 0;
+  background-color: white;
+  justify-content: flex-start;
+}
+
+.menu-btn {
+  margin-left: 55px;
+  border: 0;
+}
+
+.side-main {
+  background-color: white;
+}
+
+.main {
+  background-color: #f4f5f7;
+  height: calc(100%);
+}
+
+.container-md {
+  padding-top: 20px;
+  background-color: #f4f5f7;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  padding-top: 12px;
+}
+
+.search {
+  height: 70%;
+}
+
+.profile-img {
+  padding-right: 10px;
+}
+.nav-item {
+  align-items: center;
+}
+
+/* .page {
+    text-decoration: none;
+} */
+
+.btn-outline.btn-search {
+  color: darkblue !important;
+  border-color: darkblue !important;
+  font-size: 16px;
+  font-weight: 700;
+  border-width: 2px;
+}
+
+.btn-outline.btn-search:hover {
+  color: white !important;
+  border-color: black !important;
+  background-color: darkblue !important;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* CSS Main */
+.pages h1 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.button-list {
+  padding-bottom: 20px;
+}
+
+/* img.card-image  {
+display: flex;
+justify-content: center;
+align-items: center;
+} */
+
+.btn-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.btn-img {
+  margin-left: 10px;
+}
+
+.btn-delete {
+  opacity: 0.7;
+}
+
+.btn-edit {
+  opacity: 0.9;
+}
+.btn-delete:hover {
+  opacity: 1;
+}
+
+.btn-edit:hover {
+  opacity: 1;
+}
+
+.hasil-pencarian {
+  text-align: -webkit-center;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  padding-top: 1%;
+  justify-content: space-around;
+  flex-flow: wrap;
+  text-align: left;
+  color: black;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.card-text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.icon-card {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 15px;
+  padding-right: 5px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card {
+  height: 446px;
+  width: 300px;
+}
+
+.card-body {
+  width: 100%;
+  height: fit-content;
+}
+.card-img {
+  padding: 15px;
+  height: 200px;
+  object-fit: cover;
+  padding-top: 50px;
+}
+
+.spasi {
+  margin: 5px;
+}
+
+.side.img-side {
+  width: 70px;
+  height: 64px;
+
+  padding-right: 50px !important;
+}
+
+.red {
+  color: red;
+}
+
+.add-car {
+  background-color: white;
+  padding-top: 20px;
+}
+
+.form-input {
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.max-file {
+  padding-left: 30px;
+}
+
+.bottom-section {
+  height: 15rem;
+}
+
+.btn-add {
+  opacity: 0.9;
+}
+
+.btn-add:hover {
+  opacity: 1;
+}
+
+.btn-filter {
+  opacity: 0.5;
+  padding-right: 10px;
+}
+
+.btn-filter:hover {
+  opacity: 1;
+}
+
+.btn-filter:focus {
+  opacity: 1;
+}
+
+.btn-cancel {
+  padding-right: 10px;
+}
+
+.btn-cancel:hover {
+  opacity: 0.8;
+}
+
+.btn-save:hover {
+  opacity: 0.8;
+}
+
+.info-created {
+  background-color: rgb(22, 198, 22);
+  width: 15em;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.info-updated {
+  background-color: rgb(17, 74, 180);
+  width: 15em;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.info-deleted {
+  background-color: rgb(26, 32, 42);
+  width: 15em;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.modal-body {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.modal-btn {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.modal-content {
+  width: 80% !important;
+  justify-content: center;
+  align-self: center;
+  margin: 0 auto;
+}

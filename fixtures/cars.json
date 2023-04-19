@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Toyota",
+    "price": 200,
+    "size": "Small",
+    "image": "https://placeimg.com/384/640/any"
+  },
+  {
+    "id": 2,
+    "name": "Avanza",
+    "price": 100,
+    "size": "Medium",
+    "image": "https://placeimg.com/384/640/any"
+  },
+  {
+    "id": 3,
+    "name": "Xenia",
+    "price": 250,
+    "size": "Large",
+    "image": "https://placeimg.com/384/640/any"
+  }
+  
+]
